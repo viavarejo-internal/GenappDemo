@@ -106,7 +106,7 @@
 
       *          Added for demo by Emanuele Perna
                  EVALUATE CA-RETURN-CODE
-                 WHEN 01
+                 WHEN 02
                   GO TO NO-CUST
                  WHEN OTHER
                    IF CA-RETURN-CODE > 0
@@ -290,7 +290,7 @@
       *    Added for Demo by Emanuele Perna
 
        NO-CUST.
-           Move 'No customer was found.'           To  ERRFLDO.
+           Move 'No customer was found.Artifactory!' To  ERRFLDO.
            Go To ERROR-OUT.
 
        ERROR-OUT.
