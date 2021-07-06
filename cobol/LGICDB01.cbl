@@ -206,7 +206,7 @@
            WHEN 0
                 MOVE '00' TO CA-RETURN-CODE
            WHEN 100
-                MOVE '01' TO CA-RETURN-CODE
+                MOVE '02' TO CA-RETURN-CODE
            WHEN -913
                 MOVE '01' TO CA-RETURN-CODE
            WHEN OTHER
